@@ -1,16 +1,14 @@
 
 def add(a, b):
-    pass  # ...
-
+     s=a+b # ...\
+     return s
 
 def output(a, b, sum):
-    pass  # ...
-
+    print("{a}+{b}={c}")
 
 def main():
-    a, b = input_two_numbers()
+    a, b = map(int(input("input?").spilt()))
     sum = add(a, b)
-
     output(a, b, sum)
 
 
