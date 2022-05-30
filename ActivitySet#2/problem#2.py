@@ -1,13 +1,13 @@
 
 def add(a, b):
-     s=a+b # ...\
-     return s
+    s=a+b # ...\
+    return s
 
 def output(a, b, sum):
-    print("{a}+{b}={c}")
+    print(a,"+",b,"=",sum)
 
 def main():
-    a, b = map(int(input("input?").spilt()))
+    a, b = map(int,input("input?").split())
     sum = add(a, b)
     output(a, b, sum)
 
