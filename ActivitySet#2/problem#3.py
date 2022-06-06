@@ -8,10 +8,10 @@ def get_cs():
 
 def cs_to_lot(cs):
       l=[]
-    cs=cs.split(";")
+    cs = cs.split(";")
     for i in cs:
         l.append(tuple(i.split("=")))
-    return(l)
+    return (l)
 
     #"""convert connected string to list of strings"""
 
