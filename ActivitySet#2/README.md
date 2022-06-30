@@ -22,12 +22,12 @@ input? 1 2
 > Input
 ```
 system=s;database=d;username=u;password=p
-```
 > Output
 ```
 [('system','s'),(database','d'),('username','u'),('password','p')]
 ```
 
+```
 ### Activity 4
 
 > Input
